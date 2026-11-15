@@ -15,7 +15,7 @@ services:
   app:
     image: charan7263/frontend:t1
     ports:
-      - "1234:8080"
+      - "1115:8080"
     environment:
       JDBC_URL: "jdbc:mysql://devopsdb:3306/accounts?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false"
       JDBC_USERNAME: vprofile
